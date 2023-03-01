@@ -8,6 +8,8 @@
   --color-3b4149:#3b4149;
   --color-febd69:#febd69;
   --color-232f3e:#232f3e;
+  --color-bf4800:#bf4800;
+  --color-f5f5f7:#f5f5f7;
 }
 body {
   font-family: "Rubik", sans-serif;
@@ -77,5 +79,83 @@ a {
   background-color: transparent;
   color: var(--color-febd69) !important;
 }
-
 /* Header Part Ends Here*/
+
+
+/* Footer Part */
+footer{
+  background-color: var(--color-232f3e);
+}
+footer:not(:first-child) {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+footer .input-group-text{
+  background-color: var(--color-232f3e);
+  color: white;
+  padding: 8px 17px;
+}
+/* Footer Part Ends Here*/
+
+/* Home Page */
+.main-banner-content {
+  top: 15%;
+  left: 5%;
+}
+.main-banner-content h4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--color-bf4800);
+  margin: 0 0 12px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+.main-banner-content h5 {
+  font-size: 42px;
+  line-height: 54px;
+  letter-spacing: -2px;
+  font-weight: 500;
+  text-transform: none;
+}
+
+.main-banner-content p {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.4;
+  color: var(--color-131921);
+}
+
+/*  */
+
+/* home wrapper 2 */
+.home-wrapper-2 {
+  background-color: var(--color-f5f5f7);
+}
+
+/* home wrapper 2 ends */
+
+/* categories section */
+
+.categories {
+  background-color: white;
+  box-shadow: 0 0 10px #0000001a;
+  padding: 15px;
+}
+
+/* categories section ends here */
+/* Home Page Ends */
+
+
+/* Product Card */
+
+.product-cart{
+  padding: 15px;
+  background-color: white;
+}
+
+.product-card .product-detail h6{
+color: var(--color-bf4800);
+font-size: 13px;
+}
+
+/* Product Card ends here*/

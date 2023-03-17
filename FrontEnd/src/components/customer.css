@@ -1,0 +1,24 @@
+.HeaderBody{
+    display: grid;
+    margin-top: 100px;
+    
+}
+
+.ProfileBody{
+    border-color:black;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.CustmerBody{
+    display: flex;
+    margin-top: 100px;
+}
+
+.WelcomeBody{
+    width: 100%;
+    display: flex;
+    position: relative;
+    left: 40%;
+}
